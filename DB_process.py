@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 import os
 
+model= load_model('write here h5 file path')
 
 def test_img_value(number):
     num=int(number[0])
