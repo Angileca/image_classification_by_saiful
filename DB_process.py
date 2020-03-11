@@ -1,8 +1,7 @@
 import cv2
 from keras.models import load_model
 import numpy as np
-import tensorflow as tf
-import os
+
 
 model= load_model('write here h5 file path')
 
@@ -12,6 +11,8 @@ def test_img_value(number):
         deg_nam='Saiful'
     elif num==1:
         deg_nam='Ashrafi'
+    else:
+        deg_nam='unknown'
     return deg_nam
 
 def classfy(img):
